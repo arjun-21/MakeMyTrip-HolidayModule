@@ -10,7 +10,7 @@ import com.aventstack.extentreports.Status;
 import base.Holidaydriver;
 
 public class Firstpageholiday extends Holidaydriver {
-	By holidaysbutton=By.xpath("(//span[contains(text()='Holiday')])[1]");
+	By holidaysbutton=By.xpath("(//span[contains(text(),'Holiday')])[1]");
 	By city=By.xpath("//input[@id='fromCity']");
 	By from=By.xpath("//input[@placeholder='From']");
 	By to=By.xpath("//input[@placeholder='To']");
