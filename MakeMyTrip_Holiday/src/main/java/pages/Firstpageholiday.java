@@ -10,7 +10,7 @@ import com.aventstack.extentreports.Status;
 import base.Holidaydriver;
 
 public class Firstpageholiday extends Holidaydriver {
-	By holidaysbutton=By.xpath("(//span[text(),'Holiday Packages'])[1]");
+	By holidaysbutton=By.xpath("(//span[text(),'Holiday Packages'])[1]"); 
 	By city=By.xpath("//input[@id='fromCity']");
 	By from=By.xpath("//input[@placeholder='From']");
 	By to=By.xpath("//input[@placeholder='To']");
@@ -20,7 +20,7 @@ public class Firstpageholiday extends Holidaydriver {
 	By search=By.xpath("//button[contains(text(),'Search')]");
 	public void openurl()
 	{	
-		driver.manage().window().maximize();
+		driver.manage().window().maximize();                     //Maximize the window
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		//driver.get("https://www.makemytrip.com/");
 		driver.get(prop.getProperty("url"));
