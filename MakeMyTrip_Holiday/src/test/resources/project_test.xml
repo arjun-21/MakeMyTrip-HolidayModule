@@ -1,0 +1,12 @@
+<suite name="Makemytrip">
+    <test name="tst_holiday">
+        <classes>
+            <class name="base.Holidaydriver"/>
+            <class name="Testsuites.FirstPage"/>
+            <class name="Testsuites.Filters"/>
+            <class name="Testsuites.Bookinghotel_test"/>
+            <class name="Testsuites.Destinations_test"/>
+            <class name="Testsuites.Featured_test"/>
+        </classes>
+    </test>
+</suite>

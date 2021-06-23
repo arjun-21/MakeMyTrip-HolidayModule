@@ -1,0 +1,9 @@
+<suite name="Makemytrip">
+    <test name="tst_holiday">
+        <classes>
+            <class name="base.Holidaydriver"/>
+            <class name="Testsuites.FirstPage"/>
+            <class name="Testsuites.Filters"/>
+        </classes>
+    </test>
+</suite>
